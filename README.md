@@ -12,6 +12,7 @@ sudo pip3 install -r requirements.txt
 Important!!!
 Open the file  gitcount.py and insert the client_id and client secret as supplied by the author.
 Insert the key directly into the areas of ZZZs and SSSSs -
+
 GITHUB_CLIENT_ID = 'ZZZZZZZZ'#insert client id here-normally from environment
 GITHUB_CLIENT_SECRET = 'SSSSSSSSSS'#insert client secret here-normally from environment
 
@@ -55,17 +56,6 @@ which gives the following delightful output:
 |winnethebago,  | 2,        | 0             |
 
 
-
-mbiarnes,60,2
-dgisbert,10,0
-iclavijos,9,0
-jordilopez,6,0
-KenBuckley,4,2
-jespa007,2,0
-winnethebago,2,0
-jmpuigdollers,2,0
-danimagan,2,0
-IndignatsCardedeu,1,0
 
 
 ### Docker file ###
