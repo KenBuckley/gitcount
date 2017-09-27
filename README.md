@@ -1,3 +1,10 @@
+This program, gitcount.py connects to the github REST API (version 3) and queries the API.  
+There are two queries provided by this web service.  
+1) show the remaining API calls allowed from this program (typically you can make 5000 requests to the API per hour).  
+2) show the top users at a given location (the users are selected based on they number of repos they own) and  
+   the number of PullRequestEvents that have been "closed" and "merged" in the last period are tallied. 
+
+
 The following setup is prepared for Ubuntu 16.04 LTS
 
 ```
