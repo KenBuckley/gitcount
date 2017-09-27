@@ -40,10 +40,22 @@ Remaining calls to github:5000
 
 you can also call the server with the following URL:
 server/gitcount/<location name>/<number> for example:
-http://localhost:8080/gitcount/cardedeu/10
+http://localhost:8080/gitcount/cardedeu/7
 
 which gives the following delightful output:
-Username, Num Repos, Pull requests
+  
+|Username,      | Num Repos,| Pull requests |
+| ------------- |:----------|:--------------|
+|mbiarnes,      | 60,       | 2             |
+|dgisbert,      | 10,       | 0             |
+|jordilopez,    | 9,        | 0             |
+|KenBuckley,    | 4,        | 2             |
+|jespa007,      | 2,        | 0             |
+|jmpuigdollers, | 2,        | 0             |
+|winnethebago,  | 2,        | 0             |
+
+
+
 mbiarnes,60,2
 dgisbert,10,0
 iclavijos,9,0
