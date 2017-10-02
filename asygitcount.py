@@ -32,10 +32,11 @@ GITHUB_HEADERS_TO = {
                      'User-Agent': 'KenBuckley-App-TotalUsersPerLocation'
                     }
 MAXUSERS = 50  #the maximum number of users the system will search on .
-APPROACHLIMIT = 2000 #when within APPROACHLIMIT calls of reaching RATELIMIT stop. 
-                     #ideally it handled by a central supervisor service 
+APPROACHLIMIT = 50 #when within APPROACHLIMIT calls of reaching RATELIMIT stop. 
+                   #ideally it handled by a central supervisor service 
 NUM_WORKERS = 10   #threads per process
-NUM_WORKERS_INNER = 4   #threads per process
+NUM_WORKERS_INNER = 4   #threads per process in the inner loop (10 too many 
+                       #causes github to complain
 
 '''
  global variables 
