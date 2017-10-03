@@ -1,8 +1,9 @@
+Twisted==17.5.0
 klein==17.2.0
+treq==17.8.0
+service_identity==17.0.0
 oauthlib==1.0.3
-ratelimit==1.4.1
 requests==2.9.1
 requests-oauthlib==0.4.0
 simplegeneric==0.8.1
 six==1.10.0
-Twisted==17.5.0
