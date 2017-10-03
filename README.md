@@ -1,8 +1,8 @@
 This program, asygitcount.py connects to the github REST API (version 3) and queries the API.  
 There are two queries provided by this web service.  
 1) show the remaining API calls allowed from this program (typically you can make 5000 requests to the API per hour).  
-2) show the top users at a given location (the users are selected based on they number of repos they own) and  
-   the number of PullRequestEvents that have been "closed" and "merged" in the last period are tallied. 
+2) show the top github users at a given location (the users are selected based on they number of repos they own) and the idea
+   of top relates to the users who have the greatest number of PullRequestEvents that have been "closed" and "merged" in the last period.
 
 
 The following setup is prepared for Ubuntu 16.04 LTS
@@ -64,16 +64,12 @@ danimagan,2,0
 IndignatsCardedeu,1,0  
 
 
-
-### Docker file ###
-Dockerfile is not working at the moment - the service runs in the 
-the docker file but can't be access as expected - to look at.
-
 #### Running unittests ####
 none in current version
 #### Running in Production ####
-not production ready -ohh no no no.Not bad just needs more testing to ensure everything works as expected
-in all scenarios.
+not production ready -ohh no no no.
+Not bad just needs more testing to ensure everything works as expected
+in all scenarios.  
 ### Contribution guidelines ###
 
 * Writing tests
